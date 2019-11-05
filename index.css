@@ -35,11 +35,11 @@ body {
     align-items: flex-start;
   }
 
-  #artObject:hover {
-    /* color: blue; */
+  /* #artObject:hover {
+    color: blue;
     border: blue 2px;
   }
-  
+   */
   .artObject {
     max-width: 80%;
     max-height: 20rem;
