@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 2rem 0;
+    width: 100%;
+    background: orange;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+h1 {
+    margin: 3rem 2rem 2rem;
+}
+
+#gallery {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: row;
+}
+
+img {
+    width: 30%;
+}
+
+.artObject {
+    max-width: 80%;
+    max-height: 20rem;
+    margin: 1rem;
+}
