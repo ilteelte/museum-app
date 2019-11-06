@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="page-2.css">
+</head>
+<body>
+    <main>
+        <section id="content">
+            <p>Mimi's mobile museum...</p>
+            <h1>A pice of Romania...</h1>
+            <img src="http://romaniatourism.com/images/peles-castle.jpg">
+        </section>
+        <section id="comments">
+            <h2>comments...</h2>
+            <section class="comment">
+                <h3>Arien said:</h3>
+                <p>This is the definetely one of my favorite!</p>
+            </section>
+        </section>
+        <form onsubmit="submitComment(); return false">
+            <div class="formSection">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div class="formSection">
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div class="formSection">
+                <label for="comment">comment:</label>
+                <textarea id="comment" name="user_comment"></textarea>  
+            </div>    
+            <button type="submit">
+                Post your comment:
+            </button>
+        </form>
+    </main>
+</body>
+</html>
