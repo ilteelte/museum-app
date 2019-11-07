@@ -12,6 +12,7 @@ function submitComment(event) {
     const commentField = (document.getElementById("comment"))
     const commentValue = commentField.value
     console.log("message:",commentValue)
+    
 // creating comments
     const commentContainer = document.createElement("div")
 
