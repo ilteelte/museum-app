@@ -11,7 +11,7 @@ main {
     background: whitesmoke;
     width: 90%;
     margin: auto;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 2rem 0;
   }
 
@@ -35,23 +35,24 @@ input, textarea {
     box-sizing: border-box;
     border: 1px solid grey;
     min-height: 2rem;
-    font-size: 2,5px;
+    font-size: 1,2rem;
 }
 
 .comment {
     margin: 1rem auto;
     border: 1px solid black;
     border-radius: 5px;
-    max-width: 50%;
+    max-width: 80%;
 }
 
-form {
+.form {
     margin: 2rem auto;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 8px;
     width: 50%;
     padding: 1rem;
     min-width: 15rem;
+    font-size: 14px;
 }
 
 button {
@@ -60,6 +61,7 @@ button {
     color: inherit;
     background-color: transparent;
     padding: 0,5rem 1rem;
+    margin: 8px;
 }
 
 button:hover,
@@ -70,4 +72,12 @@ button:focus {
     text-align: center;
     font: inherit;
 }
-
+img {
+    max-width: 80%;
+    height: auto;
+}
+#comment {
+    height: fit-content;
+    min-height: 75px;
+   
+}
