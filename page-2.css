@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 2rem 0;
+    width: 100%;
+    background: #FFBA00;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+  }
+
+main {
+    background: whitesmoke;
+    width: 90%;
+    margin: auto;
+    border-radius: 8px;
+    padding: 2rem 0;
+  }
+
+h2 {
+    display: block;
+    margin: 2rem auto;
+
+}
+
+h1 {
+    display: block;
+}
+
+label {
+    display: inline-block;
+    width: 80%;
+  }
+
+input, textarea {
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    min-height: 2rem;
+    font-size: 1,2rem;
+}
+
+.comment {
+    margin: 1rem auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 80%;
+}
+
+.form {
+    margin: 2rem auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 50%;
+    padding: 1rem;
+    min-width: 15rem;
+    font-size: 14px;
+}
+
+button {
+    font: inherit;
+    padding: 4px;
+    color: inherit;
+    background-color: transparent;
+    padding: 0,5rem 1rem;
+    margin: 8px;
+}
+
+button:hover,
+button:focus {
+    color: orange;
+    border-color: orange;
+    background-color: white;
+    text-align: center;
+    font: inherit;
+}
+img {
+    max-width: 80%;
+    height: auto;
+}
+#comment {
+    height: fit-content;
+    min-height: 75px;
+   
+}
